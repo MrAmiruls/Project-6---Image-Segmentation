@@ -9,9 +9,12 @@ The project is built with Spyder as the main IDE. The main framework used in thi
 ## Methodology
 The dataset files contains a train folder for training data and test folder for testing data. The dataset is in format of images for input and image mask for the labels. The input images are preprocessed with feature scaling. The labels are preprocessed such that the values are in binary 0 and 1. The train data is split into train-validation sets with ratio of 80:20.
 
-The model was trained with a batch size of 16 and 100 epochs. Early stopping also applied in the model training. The training stops at epoch , with a training accuracy of %, and validation accuracy of %. The model training graphs are shown in figures below.
+The model was trained with a batch size of 16 and 100 epochs. Early stopping also applied in the model training. The training stops at 22 epoch , with a training accuracy of 97.1%, and validation accuracy of 96.6%. The model training graphs are shown in figures below.
+![Early Stopping](https://user-images.githubusercontent.com/85603599/166077383-a0738f3e-b3fc-4d54-a6a7-ae99c3296c55.jpg)
 ![accuracy](https://user-images.githubusercontent.com/85603599/166076957-8d77ca77-1988-41c2-8a8c-221b670b8e82.jpg)
 ![loss](https://user-images.githubusercontent.com/85603599/166077010-29ffd2b8-ca8e-4ec4-a737-f3ddad8b86f7.jpg)
+
+
 
 ## Result
 ![result](https://user-images.githubusercontent.com/85603599/166077036-8d99a635-8fc1-4db5-a0f5-c8a001f51328.jpg)
